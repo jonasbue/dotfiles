@@ -5,6 +5,7 @@
 alias lc='i3lock -c 301050'
 alias plz='sudo $(fc -ln -1)'
 alias python='python3'
+alias log='git log --graph'
 
 ## pyenv configs
 export PYENV_ROOT="$HOME/.pyenv"

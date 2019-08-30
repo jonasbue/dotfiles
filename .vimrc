@@ -8,7 +8,7 @@ set hlsearch
 
 autocmd Filetype python setlocal noexpandtab listchars=tab:\'\  list
 
-autocmd BufRead *.py setlocal noexpandtab 
-autocmd BufRead *.py execute ':%retab!'
-autocmd BufWrite *.py setlocal expandtab 
-autocmd BufWrite *.py execute ':%retab!'
+autocmd BufEnter *.py setlocal noexpandtab 
+autocmd BufEnter *.py execute ':%retab!'
+autocmd BufLeave,BufWrite *.py setlocal expandtab 
+autocmd BufLeave,BufWrite *.py execute ':%retab!'

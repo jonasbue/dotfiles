@@ -6,6 +6,8 @@ alias lc='i3lock -c 301050'
 alias plz='sudo $(fc -ln -1)'
 alias python='python3'
 alias log='git log --graph'
+alias tx='pdflatex main.tex && evince main.pdf'
+alias st='git status'
 
 ## pyenv configs
 export PYENV_ROOT="$HOME/.pyenv"
@@ -110,3 +112,5 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+PATH=/usr/local/texlive/2019/bin/x86-64-linux:$PATH

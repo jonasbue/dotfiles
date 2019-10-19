@@ -4,7 +4,6 @@ set ignorecase
 set autoindent
 set tabstop=4
 set shiftwidth=4
-set hlsearch
 
 autocmd Filetype python setlocal noexpandtab listchars=tab:\'\  list
 

@@ -8,6 +8,7 @@ alias python='python3'
 alias log='git log --graph'
 alias tx='pdflatex main.tex && evince main.pdf'
 alias st='git status'
+alias xx='exit'
 
 ## pyenv configs
 export PYENV_ROOT="$HOME/.pyenv"

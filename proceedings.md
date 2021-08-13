@@ -7,9 +7,9 @@ Ideally, (parts of) the following process could be scripted, saving a lot of tim
 - Install gnome-tweaks. Then, set some configurations. Most importantly,
     - Set Caps lock as Ctrl
     - Set compose key as left Ctrl
-    - Set dark theme
-    - Set scaling to 100 %
-    - Adjust font sizes to 15-16, and select nice serif fonts
+    - Set dark theme (Arc-Dark currently in fashion)
+    - Set scaling to 100 % (in settings)
+    - Adjust font sizes to 15-16, and select nice fonts
 - Set hotkeys in settings
     - Terminal (Ctrl+Alt+T) 
 - Install
@@ -22,8 +22,14 @@ Ideally, (parts of) the following process could be scripted, saving a lot of tim
 
 ## The non-essentials 
 - Install pop shell
-    - As of writing this, current pop shell version is incompatible with current gnome version. Will this be a problem when keeping up with latest gnome?
-    - Alternatively: Try i3?
+    - Alternatively: Maybe you should try i3 this time?
+    - Gnome may not accept pop shell version. To disable version checking, open
+        dconf-editor
+    and go to
+        org/gnome/shell/
+    and enable 
+        disable-extension-version-velidation
+
 - Install some programs
     - insync
     - Spotify

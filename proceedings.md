@@ -29,7 +29,17 @@ Ideally, (parts of) the following process could be scripted, saving a lot of tim
         org/gnome/shell/
     and enable 
         disable-extension-version-velidation
-
+    - Set borders and hinting
+- Install plugins for zsh
+    - zsh-syntax-highlighting
+    - fzf (File finder: Crtl-T to search)
+    - zsh-autosuggestions
 - Install some programs
     - insync
     - Spotify
+
+- Settings:
+    - Fix battery settings
+    - Calendar, time and date
+    - Turn of event sounds
+    - Terminal colors

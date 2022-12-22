@@ -10,6 +10,11 @@ alias tx='pdflatex main.tex && evince main.pdf'
 alias st='git status'
 alias xx='exit'
 
+# Custom zsh-autosuggest keybindings
+zle -N autosuggest-accept
+bindkey '^ ' autosuggest-accept
+#bindkey '^M' autosuggest-execute
+
 ## pyenv configs
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
